@@ -33,8 +33,9 @@ class BulletHoles_Config
 		"Hit_ErrorNoMaterial"
 	};
 	ref TStringArray IgnoreObjects = {
-		"CarScript" // Don't wanna deal with despawning decals when windows break completely.
-		"CarDoor" // Same as above and decals don't attach properly to any animated part, no idea why, don't wanna deal with it right now.
+		"CarScript", // Don't wanna deal with despawning decals when windows break completely.
+		"CarDoor", // Same as above and decals don't attach properly to any animated part, no idea why, don't wanna deal with it right now.
+		"ItemBase"
 	};
 
 	int VariantsPerSurface = 5; // Number of texture variants per surface type
